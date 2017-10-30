@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Presentation.Activity.MainActivity" />
         <activity android:name=".Presentation.Activity.sing_in" />
-        <activity android:name=".Presentation.Activity.sing_up"></activity>
+        <activity android:name=".Presentation.Activity.sing_up" />
+        <activity android:name=".Presentation.Activity.funcion_raymi"></activity>
     </application>
 
 </manifest>

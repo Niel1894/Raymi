@@ -79,14 +79,14 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textColor="#FFFFFF"
-                android:background="@drawable/boton_style"
+                android:background="@color/redButton"
                 android:layout_marginBottom="20dp"
                 android:text="selecciona tu idioma" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/enter"
                 android:textColor="#ffffff"
-                android:background="@drawable/boton_style"
+                android:background="@color/redButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -105,17 +105,16 @@
            <TextView
                android:paddingRight="4dp"
                android:gravity="right"
-          android:layout_width="match_parent"
-           android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
                android:layout_weight="1"
                android:text="¿No tiene cuenta?"/>
 
             <TextView
+                android:id="@+id/here"
                 android:paddingLeft="4dp"
                 android:layout_weight="1"
-                android:id="@+id/create"
                 android:textColor="@color/redButton"
-                android:background=""
                 android:text="Crea una aqui"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />

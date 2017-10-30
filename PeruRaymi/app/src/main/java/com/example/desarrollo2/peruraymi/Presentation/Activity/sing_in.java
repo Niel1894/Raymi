@@ -16,7 +16,7 @@ TextView crearAqui;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sing_in);
-        getSupportActionBar().hide();
+
 crearAqui = (TextView) findViewById(R.id.create);
 
         crearAqui.setOnClickListener(new View.OnClickListener() {
