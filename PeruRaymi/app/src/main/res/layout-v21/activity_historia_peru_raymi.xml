@@ -58,6 +58,7 @@ android:layout_marginBottom="15dp"
         android:layout_marginBottom="75dp"
         android:layout_marginTop="160dp">
         <ImageView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/_04_walkthought_1_img2"
@@ -96,8 +97,8 @@ android:layout_marginBottom="15dp"
         </LinearLayout>
 
         <ImageView
-            android:elevation="10dp"
-            android:paddingTop="10dp"
+            android:elevation="20dp"
+            android:paddingTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/_05_menu_img7"
