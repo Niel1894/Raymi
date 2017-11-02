@@ -1,4 +1,4 @@
-package com.example.desarrollo2.peruraymi.Presentation.Activity;
+package com.example.desarrollo2.peruraymi.Presentation.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,7 @@ import android.view.View;
 
 import com.example.desarrollo2.peruraymi.R;
 
-public class sing_up extends AppCompatActivity {
+public class Sing_up extends AppCompatActivity {
 AppCompatButton crear;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ AppCompatButton crear;
         crear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(sing_up.this,funcion_raymi.class);
+                Intent i = new Intent(Sing_up.this,HistoriaPeruRaymi.class);
                 startActivity(i);
             }
         });

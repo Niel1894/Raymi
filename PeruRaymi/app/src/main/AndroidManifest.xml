@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Presentation.Activity.splash_screen">
+        <activity android:name=".Presentation.activity.Splash_screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Presentation.Activity.MainActivity" />
-        <activity android:name=".Presentation.Activity.sing_in" />
-        <activity android:name=".Presentation.Activity.sing_up" />
-        <activity android:name=".Presentation.Activity.funcion_raymi"></activity>
+        <activity android:name=".Presentation.activity.MainActivity" />
+        <activity android:name=".Presentation.activity.Sing_in" />
+        <activity android:name=".Presentation.activity.Sing_up" />
+        <activity android:name=".Presentation.activity.HistoriaPeruRaymi"></activity>
     </application>
 
 </manifest>

@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.desarrollo2.peruraymi.Presentation.Activity.sing_in">
+    tools:context="com.example.desarrollo2.peruraymi.Presentation.activity.Sing_in">
 
     <LinearLayout
-        android:paddingTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,12 +19,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:textColor="@color/redButton"
-                android:paddingTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:paddingTop="20dp"
                 android:text="Iniciar Sesión"
+                android:textColor="@color/redButton"
                 android:textSize="40sp" />
         </LinearLayout>
 
@@ -46,14 +46,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/correo"
-                    android:inputType="textEmailAddress"/>
+                    android:inputType="textEmailAddress" />
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:passwordToggleEnabled="true"
-                android:layout_marginBottom="20dp">
+                android:layout_marginBottom="20dp"
+                app:passwordToggleEnabled="true">
 
                 <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"
@@ -72,28 +72,28 @@
             <android.support.v7.widget.AppCompatButton
 
                 android:id="@+id/select"
-                android:layout_marginLeft="70dp"
-                android:layout_marginRight="70dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="center"
-                android:textColor="#FFFFFF"
-                android:background="@color/redButton"
                 android:layout_marginBottom="20dp"
-                android:text="selecciona tu idioma" />
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:background="@color/redButton"
+                android:gravity="center"
+                android:text="selecciona tu idioma"
+                android:textColor="#FFFFFF" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/enter"
-                android:textColor="#ffffff"
-                android:background="@color/redButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_gravity="center"
-                android:text="ingresar"
+                android:background="@color/redButton"
                 android:gravity="center"
+                android:text="ingresar"
+                android:textColor="#ffffff"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -102,22 +102,23 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:orientation="horizontal">
-           <TextView
-               android:paddingRight="4dp"
-               android:gravity="right"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_weight="1"
-               android:text="¿No tiene cuenta?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="4dp"
+                android:text="¿No tiene cuenta?" />
 
             <TextView
                 android:id="@+id/here"
-                android:paddingLeft="4dp"
-                android:layout_weight="1"
-                android:textColor="@color/redButton"
-                android:text="Crea una aqui"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="4dp"
+                android:text="Crea una aqui"
+                android:textColor="@color/redButton" />
         </LinearLayout>
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

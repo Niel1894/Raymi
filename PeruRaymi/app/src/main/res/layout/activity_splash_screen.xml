@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.desarrollo2.peruraymi.Presentation.Activity.splash_screen">
+    tools:context="com.example.desarrollo2.peruraymi.Presentation.activity.Splash_screen">
 
 
     <RelativeLayout
@@ -30,14 +30,16 @@
         android:weightSum="1">
 
         <TextView
-            android:gravity="center"
-            android:layout_gravity="center"
+            android:id="@+id/texto1"
             android:layout_width="141dp"
-            android:textColor="@color/redButton"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:text="Tu guia de turismo"
+            android:textColor="@color/redButton"
             android:textSize="16dp" />
         <TextView
+            android:id="@+id/texto2"
             android:layout_width="124dp"
             android:layout_height="wrap_content"
             android:text="por"
@@ -47,6 +49,7 @@
             android:textSize="16dp"
             />
         <TextView
+            android:id="@+id/texto3"
             android:layout_width="124dp"
             android:layout_height="wrap_content"
             android:text="Miraflores-Perú"
@@ -62,6 +65,7 @@
         android:layout_weight="1"
         android:orientation="vertical">
         <TextView
+            android:id="@+id/texto4"
             android:textColor="@color/redButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -69,6 +73,7 @@
             android:layout_gravity="center"
             android:gravity="center"/>
         <TextView
+            android:id="@+id/texto5"
             android:textColor="@color/redButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
