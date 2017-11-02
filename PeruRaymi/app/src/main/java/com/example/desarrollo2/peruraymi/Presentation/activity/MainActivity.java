@@ -7,7 +7,6 @@ import android.support.v7.widget.RecyclerView;
 import com.example.desarrollo2.peruraymi.R;
 
 public class MainActivity extends AppCompatActivity {
-    private RecyclerView recyclerView;
 
 
     @Override
